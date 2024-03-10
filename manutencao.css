@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Definindo altura mínima igual à altura da viewport */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    min-height: 200%; /* Definindo altura mínima para ocupar toda a altura do viewport */
+    display: flex;
+    flex-direction: column; /* Para alinhar o conteúdo verticalmente */
+    justify-content: center; /* Para alinhar o conteúdo verticalmente */
+}
+
+.image-placeholder {
+    margin-top: 500px; /* Espaçamento entre as imagens */
+    margin-right: 600px; /* Adicionando margem à esquerda para separar a imagem do conteúdo */
+    max-width: 800%; /* Definindo a largura máxima da imagem como 1000% do contêiner pai */
+    height: auto; /* Permitindo que a altura da imagem seja ajustada automaticamente */
+}
+
+.image-placeholder img {
+    max-width: 200%; /* Garantindo que as imagens não ultrapassem a largura do contêiner */
+    height: auto; /* Permitindo que a altura das imagens seja ajustada automaticamente */
+}
+
+h1 {
+    color: #668231;
+}
+
+p {
+    color: #ffffff;
+}
+.image-placeholder {
+    width: 470px;
+    height: 300px;
+    background-color: #668231;
+    margin-bottom: 20px;
+}

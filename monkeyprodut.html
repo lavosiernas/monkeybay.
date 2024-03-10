@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonkeyBay - Vendas online</title>
+    <link rel=" stylesheet" href="monkey.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #668231;
+        }
+        header {
+            background-color: #000000;
+            color: #668231;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #24bd5f;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .curso {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .curso h2 {
+            margin-top: 0;
+        }
+        .inicio-button {
+            display: inline-block;
+            background-color: #0a0a0a;
+            color: #ffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-bottom: 20px; /* Adicionando margem inferior para espaçamento */
+        }
+        .inicio-button:hover {
+            background-color: #668231;
+        }
+        #logo-video {
+            width: 210px; /* ajuste o tamanho conforme necessário */
+            height: auto;
+            margin: 10px auto; /* centralize o vídeo */
+        } 
+        /* Estilos para o carrossel */
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch; /* Suporte para scroll suave em dispositivos iOS */
+        }
+        .carousel img {
+            flex: 0 0 auto;
+            width: 300px; /* ajuste o tamanho conforme necessário */
+            height: auto;
+            margin-right: 10px;
+            scroll-snap-align: start;
+            cursor: pointer; /* Adicionar cursor de ponteiro para indicar que a imagem é clicável */
+        }
+        .search-form{
+    position: relative;
+}
+
+.search-form input[type="text"] {
+    width: 200px; /* ajuste conforme necessário */
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+.search-form:hover input[type="text"] {
+    width: 300px; /* ajuste conforme necessário */
+}
+    </style>
+</head>
+<head>
+    <!-- Outros elementos do cabeçalho -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+    <video id="logo-video" autoplay muted loop>
+        <source src="C:\Users\Windows\Downloads\WhatsApp Video 2024-02-25 at 03.24.38.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+    </video>
+    <h1>MonkeyBay - Vendas Online</h1>
+    <!-- Adicionando o botão "Início" -->
+    <a href="monkey.html" class="inicio-button">Início</a>
+    <!-- Adicionando a barra de pesquisa -->
+    <form action="/search" method="GET" class="search-form">
+        <input type="text" name="search" placeholder="Pesquisar...">
+        <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    
+    <nav>
+        <ul>
+            <!-- Você pode manter outros links de navegação aqui -->
+        </ul>
+    </nav>
+</header>
+
+
+    <div class="container">
+        <div class="curso">
+            <h2>Vendas Online</h2>
+            <p>Confira nossos cursos online disponíveis:</p>
+            <!-- Carrossel de imagens para cursos -->
+            <div class="carousel">
+                <!-- Adicione links em torno das imagens para direcioná-las aos produtos -->
+                <a href=""><img src="" alt="Curso 1"></a>
+                <a href="" alt="Curso 2"></a>
+                <a href=""><img src="" alt="Curso 3"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MonkeyBay. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="sobre.js"></script>
+</body>
+</html>

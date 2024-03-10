@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+   background:black ;
+    top: 50px;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 80px #668231;
+    gap: 5px;
+    
+}
+
+
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    
+}
+
+.formLogin p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 3px solid rgb(0, 0, 0)f;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+    font-weight: 600;
+    
+}
+
+.formLogin input:focus {
+    border: 1px solid #668231;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+    top: -50px;
+    color: #fff;
+}
+
+#esqueci-senha {
+    background-color: #668231;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    width: 210px;
+    height: 40px;
+    border-radius: 4px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none; 
+    line-height: 40px; 
+    position: relative;
+    top: -3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#esqueci-senha:hover {
+    transform: scale(1.05);
+    background-color: #1a1818;
+
+}
+
+
+.btn {
+    background-color: #668231;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #1a1818;
+}
+
+
+
+.logo-container {
+    height: 100px; /* Altura fixa para o contêiner da logo */
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: center; /* Centralizar horizontalmente */
+    margin-bottom: 10px;
+}
+.logo-video {
+    max-height: 100%; /* Ajustar a altura da logo para preencher o contêiner */
+    width: auto;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+   box-shadow: 5px 5px 40px #668231;
+    top: -30px;
+
+}
+.password-toggle {
+    position: relative;
+    right: 10px;
+    top: 25px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #668231;
+    border-radius: 2px;
+    margin-left: 25px;
+    margin-right: 5px;
+    transition: all linear 180ms;
+}
+
+
+.password-toggle:hover {
+
+background-color:#1a1818;
+
+}
+
+ #email , #senha {
+background-color: #668231;
+
+}
+
+
+::placeholder {
+
+color: #fff;
+
+}
